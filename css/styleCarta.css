@@ -1,0 +1,63 @@
+/** Tarjetas Restaurante **/
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+
+  .wrap .wrap-title-section h2{
+    font-family: "Poppins", sans-serif;
+    color:#0c0c0c;
+  }
+  
+  .column-2.carta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+  
+  .plato-carta{
+    display: flex;
+    align-items: center;
+    border: 1px solid #d13939;
+    border-radius: 6px;
+  }
+  
+  .img-plato-carta{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    color: #0c0c0c;
+  }
+  
+  .img-plato-carta img{
+    max-width: 100px;
+    max-height: 75px;
+  }
+  
+  .title-plato-carta{
+    border: 1px solid #d13939;
+    border-bottom: none;
+    border-top: none;
+    flex-basis: 60%;
+    padding: 0 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+  }
+  
+  .precio-plato-carta{
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+  }
+
+  @media (max-width:680px){
+    .column-2.carta{
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
