@@ -1,15 +1,26 @@
 /** Tarjetas Restaurante **/
 
-.wrap{
-    max-width: 1200px;
-    margin: 0 auto;
-    
-  }
 
-  .wrap .wrap-title-section h2{
-    font-family: "Poppins", sans-serif;
-    color:#0c0c0c;
-  }
+
+.wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+  
+}
+
+.wrap .wrap-title-section h2{
+  font-family: "Poppins", sans-serif;
+  color:white;
+  background-color: #131313;
+  padding: 10px 10px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
   
   .column-2.carta{
     display: grid;

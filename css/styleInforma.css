@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@
 }
 .card .contenido-card a{
 	display: inline-block;
-	padding: 10px;
+	padding: 15px;
 	margin-top: 10px;
 	text-decoration: none;
 	color: #e93333;
@@ -56,6 +56,28 @@
 	transition: all 400ms ease;
 	margin-bottom: 5px;
 }
+
+.exp{
+	margin-top: 80px;
+}
+
+.per{
+	margin-top: 30px;
+}
+
+.fle{
+	display: flex;
+}
+
+.text-icon{
+	padding: 2px;
+	margin-top: 3px;
+}
+
+.a-icon{
+	color: white;
+}
+
 .card .contenido-card a:hover{
 	background: #e93333;
 	color: #fff;
