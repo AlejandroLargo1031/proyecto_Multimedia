@@ -41,23 +41,44 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-8">
-              <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+              <nav class="navbar nav-bar navbar-expand-lg bg-secondary navbar-dark">
                 <img class="logo" src="images/logo-v2.png" alt="">
                 <a href="index.html" class="navbar-brand">
-                  <h1 class="m-0 text-white display-4"><span class="text-primary2">S</span>ta<span class="text-ter">r</span><span class="text-primary2">P</span>izz<span class="text-ter">a</span></h1>
-              </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Inicio</a>
-                        <a href="carta.html" class="nav-item nav-link active">Carta</a>
-                        <a href="informacion.html" class="nav-item nav-link">Informacion</a>
-                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                    </div>
+                    <h1 class="m-0 text-white display-4"><span class="text-primary2">S</span>ta<span class="text-ter">r</span><span class="text-primary2">P</span>izz<span class="text-ter">a</span></h1>
+                </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+            <ul>
+                <li>
+                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                </li>
+                <li>
+                    <a href="carta.html" class="nav-item nav-link">Carta</a>
+                </li>
+                <li>
+                    <a href="informacion.html" class="nav-item nav-link">Informacion</a>
+                    <ul>
+                        <li>
+                            <a href="reseña.html" class="nav-link-info">Reseña</a>
+                        </li>
+                        <li>
+                            <a href="empleados.html" class="nav-link-info">Empleados</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="registro.html" class="nav-item nav-link">Registro</a>
+                </li>
+                <li>
+                    <a href="login.html" class="nav-item nav-link">Login</a>
+                </li>
+            </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
             </div>
           </div>
         </div>
@@ -72,6 +93,94 @@
     </section>
     <section class="wrap">
       <div class="wrap-title-section">
+        <h2>Promociones</h2>
+      </div>
+      <div class="wrap column-2 carta">
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/promo1.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4>Star-Hawaiana</h4>
+            <p>Pizza Hawaiana personal.<br>
+              400 ml CocaCola.
+            </p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>$13.500</span>
+          </div>
+        </div>
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/promo2.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4>Star-Hamburguesa</h4>
+            <p>Hamburguesa doble queso.<br>
+            Papas a la francesa.<br>
+          400 ml CocaCola</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>$25.000</span>
+          </div>
+        </div>   
+      </div>
+      <div class="wrap-title-section">
+        <h2>Entradas</h2>
+      </div>
+      <div class="wrap column-2 carta">
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/entrada1.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4>Star-Burt</h4>
+            <p>Dedos de queso.<br>
+            salsa de la casa</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>$5.000</span>
+          </div>
+        </div>
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/entrada2.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4>Star-Pan</h4>
+            <p>Pan al ajo Napolitano.<br>
+            salsa de la casa.</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>$7.000</span>
+          </div>
+        </div> 
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/hatsu.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4></h4>
+            <p>.</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>10€</span>
+          </div>
+        </div>
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/jugol.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4></h4>
+            <p>.</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span></span>
+          </div>
+        </div>   
+      </div>
+      <div class="wrap-title-section">
         <h2>Pizzas</h2>
       </div>
       <div class="wrap column-2 carta">
@@ -80,35 +189,59 @@
             <img src="images/La-Pizza-Hawaiana.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Hawaiana </h4>
-            <p>Calorías: 249 gr, Grasa: 6,5 gr, Azúcares: 6 gr.</p>
+            <h4>Hawaiana Familiar</h4>
+            <p>300 gr salsa de tomate. <br>
+              150 gr jamón cocido.<br>
+              rodajas de piña natural.<br>
+              400 gr queso mozzarella rallado.</p>
           </div>
           <div class="precio-plato-carta">
-            <span>9€</span>
+            <span>$30.000</span>
           </div>
         </div>
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/pizzahper.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4>Hawaiana Personal</h4>
+            <p>150 gr salsa de tomate. <br>
+              75 gr jamón cocido.<br>
+              rodajas de piña natural.<br>
+              200 gr queso mozzarella rallado.</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>$ 12.000</span>
+          </div>
+        </div> 
         <div class="plato-carta">
           <div class="img-plato-carta">
             <img src="images/PIZZA-POLLO-CHAMPIÑON.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Pollo con champiñon</h4>
-            <p>Calorías: 100 gr, Proteínas: 8,5 gr, Grasas: 6,0 gr.</p>
+            <h4>pollo-champiñones Familiar</h4>
+            <p>300 gr salsa de tomate.<br>
+              400 gr queso mozzarella rallado.<br>
+              Pechuga de pollo.<br>
+              Champiñones.</p>
           </div>
           <div class="precio-plato-carta">
-            <span>10€</span>
+            <span>$35.000</span>
           </div>
-        </div> 
+        </div>
         <div class="plato-carta">
           <div class="img-plato-carta">
-            <img src="images/pizza_vegetariana.png" alt="">
+            <img src="images/pizza pollo champ 13.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Vegetariana</h4>
-            <p>Calorías: 49 gr, Grasa: 3,5 gr, Azúcares: 3 gr.</p>
+            <h4>pollo-champiñones Personal</h4>
+            <p>150 gr salsa de tomate.<br>
+              200 gr queso mozzarella rallado.<br>
+              Pechuga de pollo.<br>
+              Champiñones.</p>
           </div>
           <div class="precio-plato-carta">
-            <span>9€</span>
+            <span>$15.000</span>
           </div>
         </div>
         <div class="plato-carta">
@@ -116,13 +249,29 @@
             <img src="images/pizzapepperoni.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Pepperoni</h4>
-            <p>Calorías: 120 gr, Proteínas: 9,5 gr, Grasas: 7,0 gr.</p>
+            <h4>Peperoni Familiar</h4>
+            <p>300 gr salsa de tomate.<br>
+              400 gr queso mozzarella rallado.<br>
+              Peperoni.</p>
           </div>
           <div class="precio-plato-carta">
-            <span>10€</span>
+            <span>$30.000</span>
           </div>
-        </div>    
+        </div>
+        <div class="plato-carta">
+          <div class="img-plato-carta">
+            <img src="images/PEPPERONIP,png.png" alt="">
+          </div>
+          <div class="title-plato-carta">
+            <h4>Peperoni Personal</h4>
+            <p>150 gr salsa de tomate.<br>
+              200 gr queso mozzarella rallado.<br>
+              Peperoni.</p>
+          </div>
+          <div class="precio-plato-carta">
+            <span>$30.000</span>
+          </div>
+        </div>     
       </div>
       <div class="wrap-title-section">
         <h2>Hamburguesas</h2>
@@ -186,8 +335,8 @@
             <img src="images/coca.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Productos Coca-Cola.</h4>
-            <p>Coca-Cola cero 400 ml, Coca-Cola 400 ml, Sprite 400 ml.</p>
+            <h4></h4>
+            <p></p>
           </div>
           <div class="precio-plato-carta">
             <span>9€</span>
@@ -198,8 +347,8 @@
             <img src="images/jugon.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Jugos de Frutas en agua.</h4>
-            <p>Kiwi -- Frasa -- Naranja.</p>
+            <h4></h4>
+            <p></p>
           </div>
           <div class="precio-plato-carta">
             <span>9€</span>
@@ -210,8 +359,8 @@
             <img src="images/hatsu.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Hatsu.</h4>
-            <p>Té Hatsu 400 ml.</p>
+            <h4></h4>
+            <p>.</p>
           </div>
           <div class="precio-plato-carta">
             <span>10€</span>
@@ -222,11 +371,11 @@
             <img src="images/jugol.png" alt="">
           </div>
           <div class="title-plato-carta">
-            <h4>Jugos de frutas en leche.</h4>
-            <p>Kiwi -- Fresa -- Banano.</p>
+            <h4></h4>
+            <p>.</p>
           </div>
           <div class="precio-plato-carta">
-            <span>9€</span>
+            <span></span>
           </div>
         </div>   
       </div>
