@@ -41,9 +41,8 @@
 }
 
 .logo{
-  width: 120px;
-  height: 120px;
-  margin-right: 35px;
+  width: 180px;
+  height: 100px; 
 }
 
 .row{
@@ -96,6 +95,140 @@
   height: 30%;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+li a {
+  display: block;
+  padding: 5px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+  top: 70%;
+  left: 10px;
+  background-color: red ;
+}
+
+ul li:hover > ul {
+  display: inherit;
+}
+
+ul ul li {
+  width: 200px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+
+
+@media (max-width: 991.98px) {
+  ul li {
+      display: block;
+      width: 36%;
+  }
+
+  li a {
+      padding: 15px;
+  }
+
+  ul ul {
+      position: static;
+      display: none;
+  }
+
+  ul ul li {
+      display: block;
+      width: 50%;
+      position: static;
+      top: 0;
+      left: 0;
+  }
+}
+
+.nav-link-info {
+  font-weight: bold;
+}
+
+.nav-link-info:hover, .nav-link-info:focus {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-info {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: #000;
+}
+
+.button-promo{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 3%;
+} 
+
+.button-prom {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  animation-duration: 0.3s;
+}
+
+.button-prom:hover {
+  background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+  color: #000;
+  text-decoration: none;
+}
+
+.button-prom:active {
+  background-color: green;
+  animation-name: clickAnimation;
+}
+
+@keyframes clickAnimation {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(0.95);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.icons-nav {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-icons {
+  padding-left: 15px;
+}
 
 *,
 *::before,
@@ -2719,6 +2852,40 @@ fieldset:disabled a.btn {
 .show > .btn-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
+
+/* ini  */
+.btn-outline-icons {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-icons:hover {
+  color: white;
+  background-color: red;
+  border-color: white;
+}
+
+.btn-outline-icons:focus, .btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(253, 172, 83, 0.5);
+}
+
+.btn-outline-icons.disabled, .btn-outline-primary:disabled {
+  color: #e71227;
+  background-color: transparent;
+}
+
+.btn-outline-icons:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: #212529;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-icons:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(253, 172, 83, 0.5);
+}
+/* fin  */
 
 .btn-outline-primary {
   color: #e71227;
@@ -9554,11 +9721,7 @@ h6,
 
 @media (min-width: 992px) {
   .nav-bar {
-    position: absolute;
     z-index: 999;
-  }
-  .nav-bar .navbar {
-    background: none !important;
   }
 }
 
