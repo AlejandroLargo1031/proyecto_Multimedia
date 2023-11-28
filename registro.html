@@ -27,7 +27,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet"/>
   <!-- contactos style -->
-  <link rel="stylesheet" href="css/styleContact.css">
+  <link rel="stylesheet" href="css/registro.css">
 </head>
 <div class="hero_area">
   <!-- header section strats -->
@@ -35,38 +35,77 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-8">
-          <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+          <nav class="navbar nav-bar navbar-expand-lg bg-secondary navbar-dark">
             <img class="logo" src="images/logo-v2.png" alt="">
             <a href="index.html" class="navbar-brand">
-              <h1 class="m-0 text-white display-4"><span class="text-primary2">S</span>ta<span class="text-ter">r</span><span class="text-primary2">P</span>izz<span class="text-ter">a</span></h1>
-          </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                    <a href="carta.html" class="nav-item nav-link">Carta</a>
-                    <a href="informacion.html" class="nav-item nav-link">Informacion</a>
-                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                </div>
+                <h1 class="m-0 text-white display-4"><span class="text-primary2">S</span>ta<span class="text-ter">r</span><span class="text-primary2">P</span>izz<span class="text-ter">a</span></h1>
+            </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+        <ul>
+            <li>
+                <a href="index.html" class="nav-item nav-link active">Inicio</a>
+            </li>
+            <li>
+                <a href="carta.html" class="nav-item nav-link">Carta</a>
+            </li>
+            <li>
+                <a href="informacion.html" class="nav-item nav-link">Informacion</a>
+                <ul>
+                    <li>
+                        <a href="reseña.html" class="nav-link-info">Reseña</a>
+                    </li>
+                    <li>
+                        <a href="empleados.html" class="nav-link-info">Empleados</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="registro.html" class="nav-item nav-link">Registro</a>
+            </li>
+            <li>
+                <a href="login.html" class="nav-item nav-link">Login</a>
+            </li>
+        </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
         </div>
       </div>
     </div>
   </header>
   <!-- end header section -->
+<body>
+  <div class="form-container">
 
-<body class="sub_page">
-    <div class="cont-title">
-      <div>
-        <h1 class="title">Contacto</h1>
+    <div class="form-inner-left">
+      <div class="left-content">
+        <h2 class="colorw">¡Bienvenidos Al!</h2>
+        <h1 class="m-0 text-white display-4"><span class="text-primary2">R</span>eg<span class="text-ter">i</span><span class="text-primary2">s</span>tr<span class="text-ter">o</span></h1>
       </div>
     </div>
-    <div></div>
-</body>
+    
+    <div class="form-inner-right">
+      <div class="form-inner">
+        <form class="form">
+          <input type="password" name="" class="input-box gray-border" placeholder="Nombres y Apellidos">
+          <input type="password" name="" class="input-box gray-border" placeholder="Dirección">
+          <input type="password" name="" class="input-box gray-border" placeholder="Telefono">
+          <input type="email" name="" class="input-box gray-border" placeholder="Usuario@gmail.com">
+          <input type="password" name="" class="input-box gray-border" placeholder="Contraseña">
+          <input type="password" name="" class="input-box gray-border" placeholder="Repetir contraseña">
 
+          <button class="input-box green-bg green-border" type="submit">Registar</button>
+        </form>
+ 
+      </div>
+    </div>
+ 
+  </div>
+</body>
 <!-- Footer -->
 <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5">
   <div class="row pt-5">
