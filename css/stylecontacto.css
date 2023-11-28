@@ -1,0 +1,324 @@
+.cont-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/images/fondop.png") ;   
+    margin: 30px;
+    padding: 20px;
+}
+
+.title {
+    color: white;
+}
+
+.Redes {
+    margin: 20px;
+}
+
+.twi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icono-1 {
+    padding: 11px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%; 
+    background-color: white;
+    color: #00acee;
+    border: #0b53d0;
+    border: solid 4px;
+    border-color: white;
+}
+
+
+.info-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    color: white;
+    width: 0;
+    height: 190px;
+    overflow: hidden;
+    transition: width 0.3s;
+    border: solid 4px;
+    border-color: white;
+}
+
+.info-1 span {
+    margin: 0;
+}
+
+.info-1.active {
+    width: 470px; /* Ajusta el ancho que desees que tenga al expandirse */
+    height: 190px;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    border: solid 4px;
+    border-color: white;
+}
+
+.twit {
+    text-decoration: none;
+}
+
+.fac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.icono-2 {
+    padding: 11px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 100%;  
+    background-color: #3b5998;
+    color: white;
+    border: #0b53d0;
+    border: solid 4px;
+    border-color: white;
+}
+
+
+.info-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    color: white;
+    width: 0;
+    height: 190px;
+    overflow: hidden;
+    transition: width 0.3s;
+    border: solid 4px;
+    border-color: white;
+}
+
+.info-2 span {
+    margin: 0;
+}
+
+.info-2.active {
+    width: 470px; /* Ajusta el ancho que desees que tenga al expandirse */
+    height: 190px;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    border: solid 4px;
+    border-color: white;
+}
+
+.lin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icono-3 {
+    padding: 11px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%; 
+    background-color: #0e76a8; 
+    color: white;
+    border: #0b53d0;
+    border: solid 4px;
+    border-color: white;
+}
+
+
+.info-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    color: white;
+    width: 0;
+    height: 190px;
+    overflow: hidden;
+    transition: width 0.3s;
+    border: solid 4px;
+    border-color: white;
+}
+
+.info-3 span {
+    margin: 0;
+}
+
+.info-3.active {
+    width: 470px; /* Ajusta el ancho que desees que tenga al expandirse */
+    height: 190px;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    border: solid 4px;
+    border-color: white;
+}
+
+.ins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.icono-4 {
+    padding: 11px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;  
+    background-image: linear-gradient(to right, #833ab4, #e1306c, #fd9426); 
+    color: white;
+    border: #0b53d0;
+    border: solid 4px;
+    border-color: white;
+}
+
+
+.info-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    color: white;
+    width: 0;
+    height: 190px;
+    overflow: hidden;
+    transition: width 0.3s;
+    border: solid 4px;
+    border-color: white;
+}
+
+.info-4 span {
+    margin: 0;
+}
+
+.info-4.active {
+    width: 470px; /* Ajusta el ancho que desees que tenga al expandirse */
+    height: 190px;
+    background: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    border: solid 4px;
+    border-color: white;
+}
+
+.insta {
+    text-decoration: none;
+    color: black;
+}
+
+.wha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.icono-5 {
+    padding: 11px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;  
+    background-color: #25D366;
+    color: white;
+    border: #0b53d0;
+    border: solid 4px;
+    border-color: white;
+}
+
+
+.info-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    color: white;
+    width: 0;
+    height: 190px;
+    overflow: hidden;
+    transition: width 0.3s;
+    border: solid 4px;
+    border-color: white;
+}
+
+.info-5 span {
+    margin: 0;
+}
+
+.info-5.active {
+    width: 470px; /* Ajusta el ancho que desees que tenga al expandirse */
+    height: 190px;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    border: solid 4px;
+    border-color: white;
+}
+
+.cor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icono-6 {
+    padding: 11px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%; 
+    background-color: white; 
+    color: #db4a39;
+    border: #0b53d0;
+    border: solid 4px;
+    border-color: white;
+}
+
+
+.info-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    color: white;
+    width: 0;
+    height: 190px;
+    overflow: hidden;
+    transition: width 0.3s;
+    border: solid 4px;
+    border-color: white;
+}
+
+.info-6 span {
+    margin: 0;
+}
+
+.info-6.active {
+    width: 470px; /* Ajusta el ancho que desees que tenga al expandirse */
+    height: 190px;
+    background-image: linear-gradient(to right, #008837 33%, #ffffff 33%, #ffffff 66%, #d4213d 66%);
+    border: solid 4px;
+    border-color: white;
+}
+
+/* Quitar subrayado de todos los enlaces */
+a {
+    text-decoration: none;
+}
+
+  /* Añadir subrayado cuando el mouse está sobre el enlace */
+a:hover {
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 800px) and (max-height: 720px) {
+    .info-1.active,
+    .info-2.active,
+    .info-3.active,
+    .info-4.active,
+    .info-5.active,
+    .info-6.active {
+        width: 90%; /* Cambia el ancho para adaptarse a pantallas más pequeñas */
+    }
+}

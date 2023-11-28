@@ -1,0 +1,66 @@
+.cont-title {
+    margin: 20px;
+}
+
+.cont-prin-1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer; /* Opcional: agrega un cursor indicando que el elemento es interactivo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega transición para suavizar el cambio de tamaño y la sombra */
+}
+
+.cont-prin-1:hover {
+    transform: scale(1.05); /* Escala el elemento al 120% de su tamaño original al pasar el mouse sobre él */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra con desplazamiento 0,0 y difuminado de 10px */
+}
+
+
+.cont-prin-2{
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer; /* Opcional: agrega un cursor indicando que el elemento es interactivo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega transición para suavizar el cambio de tamaño y la sombra */
+}
+
+.cont-prin-2:hover {
+    transform: scale(1.05); /* Escala el elemento al 120% de su tamaño original al pasar el mouse sobre él */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra con desplazamiento 0,0 y difuminado de 10px */
+}
+
+.cont-prin-3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer; /* Opcional: agrega un cursor indicando que el elemento es interactivo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega transición para suavizar el cambio de tamaño y la sombra */
+}
+
+.cont-prin-3:hover {
+    transform: scale(1.05); /* Escala el elemento al 120% de su tamaño original al pasar el mouse sobre él */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra con desplazamiento 0,0 y difuminado de 10px */
+}
+
+.text {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+img {
+    height: 40%;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
