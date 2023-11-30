@@ -1,50 +1,53 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>StarPizza</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-        <link rel="stylesheet" href="css/login.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>StarPizza</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <div class="form-container">
+ <div class="form-container">
 
-    <div class="form-inner-left">
-    <div class="left-content">
-            <h2 class="colorw">¡Bienvenidos A!</h2>
-            <h1 class="m-0 text-white display-4"><span class="text-primary2">S</span>ta<span class="text-ter">r</span><span class="text-primary2">P</span>izz<span class="text-ter">a</span></h1>
-        </div>
+ 	<div class="form-inner-left">
+ 		<div class="left-content">
+ 			<h2 class="colorw">¡Bienvenidos A!</h2>
+ 			<h1 class="m-0 text-white display-4"><span class="text-primary2">S</span>ta<span class="text-ter">r</span><span class="text-primary2">P</span>izz<span class="text-ter">a</span></h1>
+ 		</div>
+ 	</div>
+ 	
+ 	<div class="form-inner-right">
+ 		<div class="form-inner">
+ 			<h3 class="colorw">Login <a href="index.html" >StarPizza</a></h3> 
+
+ 			<form class="form" action="login.php" method="POST">
+				<input type="email" name="correo" class="input-box gray-border" placeholder="Usuario@gmail.com" required>
+				<input type="password" name="contrasena" class="input-box gray-border" placeholder="Contraseña" required>
+				
+				<label class="check-container">Recordar Usuario
+					<input type="checkbox" checked="checked">
+					<span class="checkmark"></span>
+				</label>
+				
+				<button class="input-box green-bg green-border" type="submit">Iniciar Sesión</button>
+			</form>
+
+ 			<p class="for-text"><a href="#" class="anch-text">Olvide contraseña?</a></p>
+ 			<p class="or-text">inicia sesión con</p>
+
+ 			<ul class="social-box">
+ 				<li><a href="" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+ 				<li><a href="" class="social-link"><i class="fab fa-google"></i></a></li>
+ 				<li><a href="" class="social-link"><i class="fab fa-twitter"></i></a></li>
+ 			</ul>
+
+ 			<p class="signup-text">¿No tienes una cuenta? <a href="#" class="anch-text">Inscribirse</a></p>
+
+ 		</div>
+ 	</div>
+
     </div>
-    <div class="form-inner-right">
-        <div class="form-inner">
-        <h3 class="colorw">Login <a href="index.html" >StarPizza</a></h3> 
-
-        <form class="form"> 
-            <input type="email" name="" class="input-box gray-border" placeholder="Usuario@gmail.com">
-            <input type="password" name="" class="input-box gray-border" placeholder="Contraseña">
-                    <label class="check-container">Recordar Usuario
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                    </label>
-                    <button class="input-box green-bg green-border" type="submit">Iniciar</button>
-                </form>
-
-                <p class="for-text"><a href="#" class="anch-text">Olvide contraseña?</a></p>
-                <p class="or-text">inicia sesión con</p>
-
-                <ul class="social-box">
-                    <li><a href="" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="" class="social-link"><i class="fab fa-google"></i></a></li>
-                    <li><a href="" class="social-link"><i class="fab fa-twitter"></i></a></li>
-                </ul>
-
-                <p class="signup-text">¿No tienes una cuenta? <a href="#" class="anch-text">Inscribirse</a></p>
-
-            </div>
-        </div>
-
-    </div>
-    </body>
+</body>

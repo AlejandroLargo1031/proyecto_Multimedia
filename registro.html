@@ -27,7 +27,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet"/>
   <!-- contactos style -->
-  <link rel="stylesheet" href="css/styleContact.css">
+  <link rel="stylesheet" href="css/registro.css">
 </head>
 <div class="hero_area">
   <!-- header section strats -->
@@ -78,16 +78,34 @@
     </div>
   </header>
   <!-- end header section -->
+<body>
+  <div class="form-container">
 
-<body class="sub_page">
-    <div class="cont-title">
-      <div>
-        <h1 class="title">Contacto</h1>
+    <div class="form-inner-left">
+      <div class="left-content">
+        <h2 class="colorw">¡Bienvenidos Al!</h2>
+        <h1 class="m-0 text-white display-4"><span class="text-primary2">R</span>eg<span class="text-ter">i</span><span class="text-primary2">s</span>tr<span class="text-ter">o</span></h1>
       </div>
     </div>
-    <div></div>
+    
+    <div class="form-inner-right">
+      <div class="form-inner">
+        <form class="form" action="bd.php" method="POST">
+          <input type="text" name="nombre" class="input-box gray-border" placeholder="Nombres y Apellidos" required>
+          <input type="text" name="direccion" class="input-box gray-border" placeholder="Dirección" required>
+          <input type="text" name="telefono" class="input-box gray-border" placeholder="Telefono" required>
+          <input type="email" name="correo" class="input-box gray-border" placeholder="Usuario@gmail.com" required>
+          <input type="password" name="contrasena" class="input-box gray-border" placeholder="Contraseña" required>
+          <input type="password" name="confirmar_contrasena" class="input-box gray-border" placeholder="Repetir contraseña" required>
+      
+          <button class="input-box green-bg green-border" type="submit">Registrar</button>
+      </form>
+ 
+      </div>
+    </div>
+ 
+  </div>
 </body>
-
 <!-- Footer -->
 <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5">
   <div class="row pt-5">
